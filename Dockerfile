@@ -6,5 +6,3 @@ RUN yum install -y nginx
 RUN echo "This is class cloud1/2 qinpeng" > /usr/share/nginx/html/index.html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
-
-
